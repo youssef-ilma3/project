@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  
+  nav button:hover {
+    background-color: #555;
+  }
+  
+  nav button a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  
+  div {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #42e37b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  p.text {
+    color: #2c0b8f;
+    font-size: 16px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  div.inpt {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  

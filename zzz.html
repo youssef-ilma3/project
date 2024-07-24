@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Hilal Al Ahmar</title>
+    <link rel="stylesheet" href="uuu.css">
+</head>
+<body>
+    <div id="page1" class="container">
+        <h1>AL HILAL AL AHMAR</h1>
+        <img src="./image/logo.png" alt="Hilal Ahmar Logo" class="logo">
+        <p>Hilal Ahmar is a humanitarian non-profit organization that provides emergency assistance, disaster relief, and disaster preparedness in several Islamic countries. The name 'Red Crescent' was internationally recognized in 1906 at the request of the Ottoman Empire.</p>
+        <img src="./image/poverty.jpg" alt="Poor Children Caused by War">
+        <p><a href="page2.html">If you wanna help them, click here</a></p>
+    </div>
+    <script>
+        function showSecondPage() {
+            document.getElementById('page1').classList.add('hidden');
+            document.getElementById('page2').classList.remove('hidden');
+        }
+
+        function donate() {
+            const progressBar = document.querySelector('.progress-bar');
+            let currentWidth = parseInt(progressBar.style.width);
+            currentWidth = Math.min(currentWidth + 1, 100);
+            progressBar.style.width = currentWidth + '%';
+            progressBar.textContent = currentWidth + '%';
+            alert('Thank you! You donated $5');
+        }
+    </script>
+ 
+</body>
+</html>

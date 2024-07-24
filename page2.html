@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="uuu.css">
+</head>
+<body>
+    <div id="page2" class="container ">
+        <h2>Donation Progress</h2>
+        <img src="./image/images (1).jpeg" alt="chelter">
+        <div class="progress-container">
+            <div class="progress-bar1">1%</div>
+        </div>
+        <button onclick="donate1()">Donate $5</button>
+     <div>
+        <img src="./image/tett.jpeg" alt="al masjid">
+        <div class="progress-container">
+            <div class="progress-bar2">1%</div>
+        </div>
+        <button onclick="donate2()">Donate $5</button>
+    </div>
+    </div>
+    <script>
+          let currentWidth1 = 1;
+          function donate1() {
+            const progressBar1 = document.querySelector('.progress-bar1');
+          
+            console.log(currentWidth1)
+            currentWidth1 = Math.min(currentWidth1 + 1, 100);
+            progressBar1.style.width = currentWidth1 + '%';
+            progressBar1.textContent = currentWidth1 + '%';
+            alert('Thank you! You donated $5');
+        }
+        let currentWidth2 = 1;
+          function donate2() {
+            const progressBar2 = document.querySelector('.progress-bar2');
+          
+            console.log(currentWidth2)
+            currentWidth2 = Math.min(currentWidth2  + 1, 100);
+            progressBar2.style.width = currentWidth2 + '%';
+            progressBar2.textContent = currentWidth2 + '%';
+            alert('Thank you! You donated $5');
+        }
+    </script>
+</body>
+</html>

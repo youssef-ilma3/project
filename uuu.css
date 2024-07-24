@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    font-weight: 800;
+}
+.container {
+    margin: 20px;
+    background-color: bisque;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    width: 100px;
+}
+.hidden {
+    display: none;
+}
+.progress-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #a39e9e;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-bar1 , .progress-bar2 {
+    width: 1%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    border-radius: 5px;
+}
